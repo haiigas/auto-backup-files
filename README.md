@@ -1,5 +1,4 @@
-## PHP Auto Backup with CronJob and FTP
-How to use:
+### How to use
 - Set up ftp connection.
 - Save the autobackup.php file in the root directory.
 - On cPanel open the CronJob menu.
