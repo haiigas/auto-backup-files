@@ -1,4 +1,3 @@
-
 # Automated cPanel Backup Script
 
 `auto-backup` is a PHP script designed to automatically trigger a full backup of a cPanel account. The script can optionally upload the backup file to a remote FTP server. It is typically executed through a cron job to ensure regular and automated backups.
