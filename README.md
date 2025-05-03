@@ -4,12 +4,14 @@
 `auto-backup` is a PHP script designed to automatically trigger a full backup of a cPanel account. The script can optionally upload the backup file to a remote FTP server. It is typically executed through a cron job to ensure regular and automated backups.
 
 ## Features
+
 - Automatically triggers full cPanel account backups.
 - Supports optional upload of backup files to a remote FTP server.
 - Works with standard cPanel themes such as `paper_lantern`.
 - Can run on a schedule via cron job without manual intervention.
 
 ## Requirements
+
 - PHP 5.6 or higher
 - A cPanel account with access credentials
 - Optional: Remote FTP server for off-site backup storage
