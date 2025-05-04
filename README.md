@@ -18,7 +18,8 @@
 
 ## Installation
 
-1. **Configure Credentials**:  
+1. **Configure Credentials**:
+
    Open the `autobackup.php` file and set your cPanel and FTP credentials:
 
    ```php
@@ -32,10 +33,12 @@
    $ftpdirectory = '/backup'; // Must exist on the FTP server
    ```
 
-2. **Upload Script**:  
+3. **Upload Script**:
+
    Upload the `autobackup.php` file to your server (any secure location you prefer).
 
-3. **Set up Cron Job**:  
+5. **Set up Cron Job**:
+
    Add a cron job to execute the script automatically. For example, to run the script every day at 3:00 AM:
 
    ```bash
